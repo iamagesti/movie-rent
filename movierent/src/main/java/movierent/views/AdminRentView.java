@@ -132,7 +132,7 @@ public class AdminRentView {
     
         if (rentExists) {
             rentUsecase.ReturnRent(rent_id, return_date);
-            System.out.println("Returned Movie Succeed!");
+            System.out.println();
         } else {
             System.out.println("Rent not found, Return Movie Failed");
         }
